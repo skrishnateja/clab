@@ -10,7 +10,7 @@ int main()
 	
 	assert(Convert (0)==0);
 	assert(Convert (-500)==0);
-
+	assert(Convert (1)-0.277778<0.001);
 	assert(Convert (100000)!=0);
 
   return 0;

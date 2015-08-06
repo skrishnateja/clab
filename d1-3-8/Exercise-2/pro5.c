@@ -1,12 +1,14 @@
 
 #include <assert.h>
 
-	
+int velocity (int d, int v, int t){
+	return (d<=v*t/2);
+}
 int main(void)
 {
     
-    int d=30, v=80, t=3;
-    
-    assert(d<=v*t/2);
+    assert(velocity(30,80,3));
+    assert(!velocity(121,80,3));
+
   return 0;
 }

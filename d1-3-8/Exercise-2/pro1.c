@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 #include <assert.h>
 
@@ -29,24 +29,3 @@ int main()
 
   return 0;
 }
-
-=======
-#include <stdio.h>
-#include <assert.h>
-
-	
-int main(void)
-{
-    int x;
-
-  printf("Enter an this year in decimal number system\n");
-
-  scanf("%d", &x);
-
-  /*  x=4000 */
-  
-  assert((x%4)==0);
-
-  return 0;
-}
->>>>>>> 3c82772ac69fbc95af26c4e1bb18ccff38911928
